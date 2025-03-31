@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="2.2.0-beta.4" />
+    <PackageReference Include="Azure.Identity" Version="1.14.0-beta.2" />
+    <PackageReference Include="Microsoft.Extensions.AI.AzureAIInference" Version="9.3.0-preview.1.25161.3" />
+    <PackageReference Include="ModelContextProtocol" Version="0.1.0-preview.4" />
+    <PackageReference Include="OpenAI" Version="2.2.0-beta.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\AzureDevOps.MCP.ServiceDefaults\AzureDevOps.MCP.ServiceDefaults.csproj" />
   </ItemGroup>
 
